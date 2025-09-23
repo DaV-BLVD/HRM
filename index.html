@@ -1,277 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Beyond HRM</title>
+        <link rel="stylesheet" href="style.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beyond HRM</title>
-    <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        />
+    </head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-
-</head>
-
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
-        <div class="logo">
-            <img src="images/beyond logo.png">
-        </div>
-
-        <!-- Hamburger for mobile -->
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <ul class="nav-links" id="nav-links">
-            <li class="hamburger-home"><a href="#">Home</a></li>
-            <li><a href="#services">Features</a></li>
-            <li><a href="#about-us">About</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li class="hamburger-contact"><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="nav-button">
-            <button>Log In</button>
-        </div>
-    </nav>
-
-
-    <!-- Hero Section -->
-    <header class="hero" data-aos="zoom-in" data-aos-duration="1200">
-        <div class="hero-overlay" data-aos="fade-right" data-aos-delay="200">
-            <h1>Beyond HRM</h1>
-            <h2>Smarter HR Management for a Modern Workforce</h2>
-            <h3>Manage payroll, requests, attendance, projects, and more — all in one place.</h3>
-
-            <div class="learn-more-button">
-                <button>Learn More</button>
+    <body>
+        <!-- Navigation Bar -->
+        <nav
+            class="navbar"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-once="true"
+        >
+            <div class="logo">
+                <img src="images/beyond logo.png" />
             </div>
-        </div>
-    </header>
 
-    <!-- key featured section -->
+            <!-- Hamburger for mobile -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-    <section class="services" id="services" data-aos="fade-up" data-aos-delay="200">
-        <h2 data-aos="fade-up" data-aos-delay="150">Key Features</h2>
-
-        <div class="features-list">
-            <!-- Top Row (3 items) -->
-            <ul class="top-row">
-                <li data-aos="zoom-in" data-aos-delay="200">
-                    <img src="icons/employee management.jpg" alt="Geo Location & Ip Based">
-                    <div class="description-wrapper">
-                        <a>Geo-Location Based & Ip Based</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque, autem. </p>
-                    </div>
-                </li>
-                <li data-aos="zoom-in" data-aos-delay="300">
-                    <img src="icons/attedanace and leave tracking.jpg" alt="Asset/Memo Management">
-                    <div class="description-wrapper">
-                        <a>Asset/Memo Management</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus non saepe corrupti,
-                            accusantium exercitationem eaque illum ea perferendis.</p>
-                    </div>
-                </li>
-                <li data-aos="zoom-in" data-aos-delay="400">
-                    <img src="icons/Payroll & Salary Management2.jpg" alt="Payroll & Salary Management"
-                        style="margin-top: 15px;">
-
-                    <div class="description-wrapper">
-                        <a>Payroll & Salary Management</a>
-                        <p>Automate salary calculations, payslips, and deductions effortlessly. Guarantee timely and
-                            error-free payroll every month.</p>
-                    </div>
+            <ul class="nav-links" id="nav-links">
+                <li class="hamburger-home"><a href="#">Home</a></li>
+                <li><a href="#services">Features</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li class="hamburger-contact">
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
+            <div class="nav-button">
+                <button>Log In</button>
+            </div>
+        </nav>
 
-            <!-- Bottom Row (2 items centered) -->
-            <ul class="bottom-row">
-                <li data-aos="zoom-in" data-aos-delay="400">
-                    <img src="icons/Recruitment & Onboarding.jpg" alt="Recruitment & Onboarding">
-                    <div class="description-wrapper">
-                        <a>Recruitment & Onboarding</a>
-                        <p>Simplify hiring with smart recruitment tools and smooth onboarding workflows. Build a strong
-                            team faster and more efficiently.</p>
-                    </div>
-                </li>
-                <li data-aos="zoom-in" data-aos-delay="400">
-                    <img src="icons/Reports & Analytics.jpg" alt="Reports & Analytics">
-                    <div class="description-wrapper">
-                        <a>HR Reports & Workforce Analytics</a>
-                        <p>Get real-time insights into HR performance with detailed reports. Make data-driven decisions
-                            that empower your organization.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <!-- Hero Section -->
+        <header class="hero" data-aos="zoom-in" data-aos-duration="1200">
+            <div
+                class="hero-overlay"
+                data-aos="fade-right"
+                data-aos-delay="200"
+            >
+                <h1>Beyond HRM</h1>
+                <p class="hero-description-1">
+                    Smarter HR Management for a Modern Workforce
+                </p>
+                <p class="hero-description-2">
+                    Manage payroll, requests, attendance, projects, and more —
+                    all in one place.
+                </p>
 
-    <!-- key features section end -->
+                <div class="learn-more-button">
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </header>
 
+        <!-- key featured section -->
 
-    <!-- about us section   -->
-    <!-- <section class="about-us" id="about-us" data-aos="fade-up" data-aos-delay="200">
-        <div class="">
-            <section>
+        <section
+            class="services"
+            id="services"
+            data-aos="fade-up"
+            data-aos-delay="200"
+        >
+            <h2 data-aos="fade-up" data-aos-delay="150">Key Features</h2>
 
-            </section>
-        </div>
-    </section> -->
+            <div class="features-list">
+                <!-- Top Row (3 items) -->
+                <ul class="top-row">
+                    <li data-aos="zoom-in" data-aos-delay="200">
+                        <img
+                            src="icons/employee management.jpg"
+                            alt="Geo Location & Ip Based"
+                        />
+                        <div class="description-wrapper">
+                            <a>Employee Management</a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Sequi doloremque, autem.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in" data-aos-delay="300">
+                        <img
+                            src="icons/attedanace and leave tracking.jpg"
+                            alt="Asset/Memo Management"
+                        />
+                        <div class="description-wrapper">
+                            <a>Attendance & Leave Tracking</a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Delectus non saepe corrupti,
+                                accusantium exercitationem eaque illum ea
+                                perferendis.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in" data-aos-delay="400">
+                        <img
+                            src="icons/Payroll & Salary Management2.jpg"
+                            alt="Payroll & Salary Management"
+                            style="margin-top: 15px"
+                        />
 
+                        <div class="description-wrapper">
+                            <a>Payroll & Salary Management</a>
+                            <p>
+                                Automate salary calculations, payslips, and
+                                deductions effortlessly. Guarantee timely and
+                                error-free payroll every month.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
 
-    <section class="why-choose-this" data-aos="fade-right" data-aos-delay="200">
-        <div class="why-choose-this-wrapper">
-            <h1>
-                Why Choose This?
-            </h1>
-            <div>
-                <span>
-                    <img src="icons2/1.png" alt="">
+                <!-- Bottom Row (2 items centered) -->
+                <ul class="bottom-row">
+                    <li data-aos="zoom-in" data-aos-delay="400">
+                        <img
+                            src="icons/Recruitment & Onboarding.jpg"
+                            alt="Recruitment & Onboarding"
+                        />
+                        <div class="description-wrapper">
+                            <a>Recruitment & Onboarding</a>
+                            <p>
+                                Simplify hiring with smart recruitment tools and
+                                smooth onboarding workflows. Build a strong team
+                                faster and more efficiently.
+                            </p>
+                        </div>
+                    </li>
+                    <li data-aos="zoom-in" data-aos-delay="400">
+                        <img
+                            src="icons/Reports & Analytics.jpg"
+                            alt="Reports & Analytics"
+                        />
+                        <div class="description-wrapper">
+                            <a>HR Reports & Workforce Analytics</a>
+                            <p>
+                                Get real-time insights into HR performance with
+                                detailed reports. Make data-driven decisions
+                                that empower your organization.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div
+            class="what-makes-us-unique"
+            data-aos="fade-up"
+            data-aos-delay="200"
+        >
+            <h3>What Makes Us Unique?</h3>
+            <div class="what-makes-us-unique-1">
+                <img
+                    src="main features/geo location.jpg"
+                    alt=""
+                    data-aos="fade-right"
+                />
+                <span data-aos="fade-left">
+                    <h4>Geo Location and Ip Based</h4>
                     <p>
-                        Reduce HR workload by 70%
-                    </p>
-                </span>
-                <span>
-                    <img src="icons2/2.png" alt="">
-                    <p>
-                        Transparent payroll & request management
-                    </p>
-                </span>
-                <span>
-                    <img src="icons2/3.png" alt="">
-                    <p>
-                        Real-time attendance & leave tracking
-                    </p>
-                </span>
-                <span>
-                    <img src="icons2/4.png" alt="">
-                    <p>
-                        Seamless communication between teams
-                    </p>
-                </span>
-                <span>
-                    <img src="icons2/5.png" alt="">
-                    <p>
-                        Cloud-based, secure & mobile-friendly
+                        Our company develops advanced geo-location based
+                        software that empowers organizations with real-time
+                        location insights. We deliver secure, scalable, and
+                        efficient solutions to enhance decision-making and
+                        operational excellence.
                     </p>
                 </span>
             </div>
-        </div>
-    </section>
 
-    <section class="contact" id="contact">
-        <div class="contact-wrapper">
-            <h1>
-                Contact
-            </h1>
-            <h2>
-                Addresses
-            </h2>
-            <p>
-                Baluwatar, Kathmandu <br>
-                Butwal, Nepal
-            </p>
-            <h2>
-                Postal Addresses <br>
-            </h2>
-            <p>
-                Postbus 3365 <br>
-                2001 DJ Haarlem <br>
-                Nederland
-            </p>
-            <h2>
-                Contact
-            </h2>
-            <p>
-                0031(0)23 5115775 / info@franshalsmuseum.nl
-            </p>
-        </div>
-    </section>
-
-
-    <footer class="footer" id="footer">
-        <div class="footer-wrapper">
-            <span>
-                <h2>
-                    BEYOND TECH NEPAL
-                </h2>
-                <h3>
-                    <ul>
-                        <li>Baluwatar, Kathmandu</li>
-                        <li>something something Marga</li>
-                        <li>Nepal</li>
-                        <br>
-                        <li>Open Sunday - Friday</li>
-                        <li>9:30 AM - 5:30 PM</li>
-                    </ul>
-                </h3>
-            </span>
-            <span>
-                <h2>
-                    MORE ABOUT US
-                </h2>
-                <h3>
-                    <ul>
-                        <li>NEWS</li>
-                        <li>PRESS</li>
-                        <li>WORK AT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </h3>
-            </span>
-            <span class="newsletter-email-box-wrapper">
-                <span class="newsletter-email-box">
-                    <h1>STAY INFORMED</h1>
-                    <h3>Subscribe to our Newsletter</h3>
-                    <input type="text" placeholder="example@gmail.com">
-                    <button>SUBSCRIBE</button>
+            <div class="what-makes-us-unique-2">
+                <span data-os="fade-right">
+                    <h4>Memo/Asset Management</h4>
+                    <p>
+                        Our company delivers powerful memo and asset management
+                        software that simplifies tracking, documentation, and
+                        approvals. With secure and scalable tools, we help
+                        organizations ensure efficiency, compliance, and
+                        transparency in daily operations.
+                    </p>
                 </span>
-            </span>
+                <img
+                    src="main features/asset.jpg"
+                    alt=""
+                    data-aos="fade-left"
+                />
+            </div>
         </div>
-        <div class="footer-wrapper2">
-            <img src="social media icons/facebook.png" alt="">
-            <img src="social media icons/instagraam.png" alt="">
-            <img src="social media icons/linkedin.png" alt="">
-            <img src="social media icons/youtube.png" alt="">
-        </div>
-    </footer>
 
+        <section
+            class="why-choose-this"
+            data-aos="fade-right"
+            data-aos-delay="200"
+        >
+            <div class="why-choose-this-wrapper">
+                <h1>Why Choose This?</h1>
+                <div>
+                    <span>
+                        <img src="icons2/1.png" alt="" />
+                        <p>Reduce HR workload by 70%</p>
+                    </span>
+                    <span>
+                        <img src="icons2/2.png" alt="" />
+                        <p>Transparent payroll & request management</p>
+                    </span>
+                    <span>
+                        <img src="icons2/3.png" alt="" />
+                        <p>Real-time attendance & leave tracking</p>
+                    </span>
+                    <span>
+                        <img src="icons2/4.png" alt="" />
+                        <p>Seamless communication between teams</p>
+                    </span>
+                    <span>
+                        <img src="icons2/5.png" alt="" />
+                        <p>Cloud-based, secure & mobile-friendly</p>
+                    </span>
+                </div>
+            </div>
+        </section>
 
-    <!-- Javascript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <section class="contact" id="contact">
+            <div class="contact-wrapper-form" data-aos="fade-right">
+                <form class="contact-form">
+                    <h2>Contact Form</h2>
 
-    <script>
-        // Toggle menu on mobile
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-links');
+                    <div class="first-and-last-name">
+                        <div class="firstname">
+                            <label for="firstName">First Name:</label>
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                required
+                            />
+                        </div>
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-        });
+                        <div class="lastname">
+                            <label for="lastName">Last Name:</label>
+                            <input
+                                type="text"
+                                id="lastName"
+                                name="lastName"
+                                required
+                            />
+                        </div>
+                    </div>
 
-        AOS.init({
-            duration: 800, // animation duration
-            once: true // run animation only once
-        });
+                    <div class="email">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
 
-        // Close menu when a nav link is clicked
-        navLinks.querySelectorAll("a").forEach(link => {
-            link.addEventListener("click", () => {
-                navLinks.classList.remove("active");
+                    <div class="question">
+                        <label for="question">Your Question:</label>
+                        <textarea
+                            id="question"
+                            name="question"
+                            rows="5"
+                            cols="30"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="beyond-tech-privacy">
+                        <p>
+                            By submitting my data, I consent to Beyond Tech
+                            collecting, processing, and storing my information
+                            in accordance with the Beyond Tech Notice.
+                        </p>
+                    </div>
+
+                    <button class="contact-submit-button" type="submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+
+            <div class="contact-wrapper" data-aos="fade-left">
+                <img src="images/contact.jpg" alt="" />
+            </div>
+        </section>
+
+        <footer
+            class="footer"
+            id="footer"
+            data-aos="fade-up"
+            data-aos-delay="200"
+        >
+            <div class="footer-wrapper">
+                <span class="footer-1">
+                    <p>BEYOND TECH NEPAL</p>
+                    <p>
+                        <ul>
+                            <li>Baluwatar, Kathmandu</li>
+                            <li>Bhakta Marga</li>
+                            <li>Nepal</li>
+                            <br />
+                            <li>Open Sunday - Friday</li>
+                            <li>9:30 AM - 5:30 PM</li>
+                        </ul>
+                    </p>
+                </span>
+                <span class="footer-2">
+                    <p>MORE ABOUT US</p>
+                    <p>
+                        <ul>
+                            <li>NEWS</li>
+                            <li>PRESS</li>
+                            <li>WORK AT</li>
+                        </ul>
+                    </p>
+                </span>
+                <span class="newsletter-email-box-wrapper">
+                    <span class="newsletter-email-box">
+                        <p>STAY INFORMED</p>
+                        <p>Subscribe to our Newsletter</p>
+                        <input type="text" placeholder="example@gmail.com" />
+                        <button>SUBSCRIBE</button>
+                    </span>
+                </span>
+            </div>
+            <div class="footer-wrapper2">
+                <img src="social media icons/facebook.png" alt="" />
+                <img src="social media icons/instagraam.png" alt="" />
+                <img src="social media icons/linkedin.png" alt="" />
+                <img src="social media icons/youtube.png" alt="" />
+            </div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+        <script>
+            // Toggle menu on mobile
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
             });
-        });
 
-        // Close menu when clicking outside
-        document.addEventListener("click", (e) => {
-            if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
-                navLinks.classList.remove("active");
-            }
-        });
+            AOS.init({
+                duration: 800, // animation duration
+                once: true, // run animation only once
+                easing: 'ease-in-out',
+                offset: 100, // trigger a little before elements enter viewport
+            });
 
-    </script>
-</body>
+            // Close menu when a nav link is clicked
+            navLinks.querySelectorAll('a').forEach((link) => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                });
+            });
 
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (
+                    !navLinks.contains(e.target) &&
+                    !hamburger.contains(e.target)
+                ) {
+                    navLinks.classList.remove('active');
+                }
+            });
+        </script>
+    </body>
 </html>
