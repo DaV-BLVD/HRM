@@ -221,13 +221,8 @@ html {
     max-width: 400px;
     background-color: #fff;
     border-radius: 20px;
-}
-
-.features-list ul li:hover {
-    margin-top: -9px;
-    margin-bottom: -9px;
-    transition: 0.1s;
-    transition-duration: 0.1s;
+    box-shadow:  0 0 0 1px rgb(222, 222, 222),
+        0.3em 0.3em 1em rgba(130, 130, 130, 0.2);
 }
 
 .features-list ul li img {
@@ -424,7 +419,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 25px 65px 0px 65px;
-    background-color: #bbbec3;
+    background-color: #ececec;
     border-radius: 30px;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -614,11 +609,13 @@ html {
     font-family: Open Sans;
     font-weight: bold;
     font-size: large;
-    background-color: #fecd8c;
+    color: white;
+    background-color: #000000;
 }
 
 .footer-wrapper span .newsletter-email-box button:hover {
-    background-color: #fcba64;
+    background-color: #ffc87f;
+    color: black;
 }
 
 .footer-wrapper span span h1 {
